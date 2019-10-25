@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/minusButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_remove_black_24dp" />
+
+        <TextView
+            android:id="@+id/itemQuantity"
+            android:layout_width="400dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <ImageButton
+            android:id="@+id/plusButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_add_black_24dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/detialName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/detialPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/detialDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="18sp" />
+</LinearLayout>

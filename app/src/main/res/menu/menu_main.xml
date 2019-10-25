@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.burgerkingordersystem.MainActivity">
+    <item
+        android:id="@+id/menuIcon"
+        android:orderInCategory="100"
+        android:title="menu"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_restaurant_menu_black_24dp"/>
+    <item
+        android:id="@+id/shopCar"
+        android:orderInCategory="100"
+        android:title="order"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"/>
+
+
+</menu>
